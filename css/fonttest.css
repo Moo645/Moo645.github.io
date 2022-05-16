@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*cwTeXHei (Chinese-traditional)黑體*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+/*cwTeXYen (Chinese Traditional)圓體*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+/*cwTeXKai (Chinese Traditional)楷體*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+/*cwTeXMing (Chinese Traditional)明體*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
+/*cwTeXFangSong (Chinese Traditional)仿宋體*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+/*Noto Sans TC (Chinese Traditional)思源黑體繁體*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*Noto Sans SC (Chinese Simplified)思源黑體簡體*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssc.css);
+/*Noto Serif CJK TC (Chinese Traditional)思源宋體繁體*/
+@import url(http://fonts.googleapis.com/earlyaccess/notoserifcjktc.css);
+
+.basic01 { font-family:新細明體; }
+.basic02 { font-family:微軟正黑體; }
+
+/*----- google字型 -----*/
+/*cwTeXHei (Chinese-traditional)黑體*/
+.fonttype01 { font-family: 'cwTeXHei', sans-serif; }
+/*cwTeXYen (Chinese Traditional)圓體*/
+.fonttype02 { font-family: 'cwTeXYen', sans-serif; }
+/*cwTeXKai (Chinese Traditional)楷體*/
+.fonttype03 { font-family: 'cwTeXKai', serif; }
+/*cwTeXMing (Chinese Traditional)明體*/
+.fonttype04 { font-family: 'cwTeXMing', serif; }
+/*cwTeXFangSong (Chinese Traditional)仿宋體*/
+.fonttype05 { font-family: 'cwTeXFangSong', serif; }
+/*Noto Sans TC (Chinese Traditional)思源黑體繁體*/
+.fonttype06 { font-family: 'Noto Sans TC', sans-serif; }
+/*Noto Sans SC (Chinese Simplified)思源黑體簡體*/
+.fonttype07 { font-family: 'Noto Sans SC', sans-serif; }
+/*Noto Serif CJK TC (Chinese Traditional)思源宋體繁體*/
+.fonttype08 { font-family: "source-han-serif-tc", "PMingLiU", "SimSun", serif; }
+
+/*----- 微軟字型 -----*/
+/*明瞭體*/
+.fonttype08 { font-family:Meiryo; }
+/*微軟雅黑體*/
+.fonttype09 { font-family:"Microsoft YaHei"; }
+/*微軟正黑體*/
+.fonttype10 { font-family:"Microsoft JhengHei"; }
+.fonttype11 { font-family:微軟正黑體; }
+
+/*----- 其他文字測試 -----*/
+.text0 {font-family: Meiryo, "Microsoft YaHei", "Microsoft JhengHei", Helvetica, Geneva, 思源黑體, 微軟正黑體, Arial, sans-serif; }
+.text1 {font-family:Meiryo; }/*明瞭體*/
+.text2 {font-family:"Microsoft YaHei"; }/*微軟雅黑體*/
+.text3 {font-family:"Microsoft JhengHei"; }/*微軟正黑體*/
+.text4 {font-family:微軟正黑體; }
+.text5 {font-family:Helvetica; }
+.text6 {font-family:Geneva; }
+.text7 {font-family:思源黑體; }
+.text8 {font-family:Arial; }
+.text9 {font-family:sans-serif; }
